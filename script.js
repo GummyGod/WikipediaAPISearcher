@@ -10,7 +10,7 @@ $(document).ready(function(){
         console.log(data[3]); // link **/
         $("#results").html("");
         for(i=0;i<data[i].length;i++){
-        $("#results").append("<li><a href ="+ data[3][i]+">"+data[1][i] +"<a><p>"+data[2][i]+"</p><li>");
+        $("#results").append("<li><a href ="+ data[3][i]+">"+data[1][i] +"</a><p>"+data[2][i]+"</p><li>");
         }
       },
       error: function(error){
